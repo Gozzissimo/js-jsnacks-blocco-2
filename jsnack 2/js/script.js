@@ -1,20 +1,13 @@
 // Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
 
-const numbers = [
-    2,
-    3,
-    2,
-    3,
-    2,
-    3,
-    2
-]
+let numbers = [];
 
-// for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     
-//     numbers.push = Math.floor(Math.random() * 101);
-//     console.log(numbers);
-// }
+    numbers.push(Math.floor(Math.random() * 101));
+}
+
+console.log(numbers);
 
 let sum = 0
 
