@@ -1,42 +1,40 @@
 // Generatore di “nomi cognomi” casuali: prendendo una lista di nomi e una lista di cognomi, Gatsby vuole generare una falsa lista di invitati.
 
-// const firstNames = [
-//     'Marco',
-//     'Giovanni',
-//     'Mariangelo',
-//     'Luca',
-//     'Graziello',
-//     'Concetta',
-//     'Vito',
-//     'Barnaba',
-//     'Carlo',
-//     'Agamennone',
-//     'Giangiacomo'
-// ]
+const firstNames = [
+    'Marco',
+    'Giovanni',
+    'Mariangelo',
+    'Luca',
+    'Graziello',
+    'Concetta',
+    'Vito',
+    'Barnaba',
+    'Carlo',
+    'Agamennone',
+    'Giangiacomo'
+]
 
-// const lastNames = [
-//     'Garibaldi',
-//     'Garasau',
-//     'Rossi',
-//     'Berlusconi',
-//     'Berlinguer',
-//     'Kennedy',
-//     'Catone',
-//     'Baraldi',
-//     'Barbarossa',
-//     'Russo',
-//     'Shevchenko'
-// ]
+const lastNames = [
+    'Garibaldi',
+    'Garasau',
+    'Rossi',
+    'Berlusconi',
+    'Berlinguer',
+    'Kennedy',
+    'Catone',
+    'Baraldi',
+    'Barbarossa',
+    'Russo',
+    'Shevchenko'
+]
 
-// const randName = Math.floor(Math.random() * (firstNames.length));
-// const randSur = Math.floor(Math.random() * (lastNames.length));
+const randName = Math.floor(Math.random() * (firstNames.length));
+const randSur = Math.floor(Math.random() * (lastNames.length));
+// console.log(randName);
+// console.log(randSur);
 
-// // console.log(randName);
-// // console.log(randSur);
-
-// const userName = firstNames[randName] + ' ' + lastNames[randSur]
-
-// // console.log(userName);
+const userName = firstNames[randName] + ' ' + lastNames[randSur]
+// console.log(userName);
 
 
 
