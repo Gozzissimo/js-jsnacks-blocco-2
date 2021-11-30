@@ -1,13 +1,36 @@
 // Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
 
-const numbers = []
+const numbers = [
+    2,
+    3,
+    2,
+    3,
+    2,
+    3,
+    2
+]
 
-for (let i = 0; i < 10; i++) {
+// for (let i = 0; i < 10; i++) {
     
-    numbers.push = Math.floor(Math.random() * 101);
-    console.log(numbers);
+//     numbers.push = Math.floor(Math.random() * 101);
+//     console.log(numbers);
+// }
+
+let sum = 0
+
+for (let i = 0; i < numbers.length; i += 2) {
+    sum += numbers[i];
 }
 
-// if (numbers[i] != 0 ) {
-//     let sum = 
-// }
+console.log(sum);
+
+// FUNZIONE
+function sumOfOddIndex(array) {
+    let sum = 0
+
+    for (let i = 0; i < array.length; i += 2) {
+        sum += array[i];
+    }
+
+    return sum
+}
