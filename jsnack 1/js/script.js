@@ -28,9 +28,12 @@ const lastNames = [
     'Shevchenko'
 ]
 
-let randName = Math.floor(Math.random() * (firstNames.length) + 1);
-let randSur = Math.floor(Math.random() * (lastNames.length) + 1);
+let randName = Math.floor(Math.random() * (firstNames.length));
+let randSur = Math.floor(Math.random() * (lastNames.length));
 
-console.log(randName);
-console.log(randSur);
+// console.log(randName);
+// console.log(randSur);
 
+let userName = firstNames[randName] + ' ' + lastNames[randSur]
+
+// console.log(userName);
