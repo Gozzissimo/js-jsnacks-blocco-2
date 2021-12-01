@@ -39,31 +39,32 @@ const userName = firstNames[randName] + ' ' + lastNames[randSur]
 
 
 // FUNZIONE
-listNames = casualName('Marco',
-    'Giovanni',
-    'Mariangelo',
-    'Luca',
-    'Graziello',
-    'Concetta',
-    'Vito',
-    'Barnaba',
-    'Carlo',
-    'Agamennone',
-    'Giangiacomo'
-)
 
-listSurnames = casualName('Garibaldi',
-    'Garasau',
-    'Rossi',
-    'Berlusconi',
-    'Berlinguer',
-    'Kennedy',
-    'Catone',
-    'Baraldi',
-    'Barbarossa',
-    'Russo',
-    'Shevchenko'
-)
+// listNames = casualName('Marco',
+//     'Giovanni',
+//     'Mariangelo',
+//     'Luca',
+//     'Graziello',
+//     'Concetta',
+//     'Vito',
+//     'Barnaba',
+//     'Carlo',
+//     'Agamennone',
+//     'Giangiacomo'
+// )
+
+// listSurnames = casualName('Garibaldi',
+//     'Garasau',
+//     'Rossi',
+//     'Berlusconi',
+//     'Berlinguer',
+//     'Kennedy',
+//     'Catone',
+//     'Baraldi',
+//     'Barbarossa',
+//     'Russo',
+//     'Shevchenko'
+// )
 
 
 function casualName(listNames, listSurnames) {
@@ -76,3 +77,5 @@ function casualName(listNames, listSurnames) {
     const userName = listNames[randName] + ' ' + listSurnames[randSur]
     console.log(userName);
 }
+
+console.log(casualName(firstNames, lastNames));

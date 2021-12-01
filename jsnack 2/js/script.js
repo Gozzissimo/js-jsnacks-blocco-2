@@ -3,7 +3,6 @@
 let numbers = [];
 
 for (let i = 0; i < 10; i++) {
-    
     numbers.push(Math.floor(Math.random() * 101));
 }
 
@@ -24,6 +23,5 @@ function sumOfOddIndex(array) {
     for (let i = 0; i < array.length; i += 2) {
         sum += array[i];
     }
-
     return sum
 }
