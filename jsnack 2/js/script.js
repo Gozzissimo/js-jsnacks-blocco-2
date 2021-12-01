@@ -8,20 +8,26 @@ for (let i = 0; i < 10; i++) {
 
 console.log(numbers);
 
-let sum = 0
+// let sum = 0;
 
-for (let i = 0; i < numbers.length; i += 2) {
-    sum += numbers[i];
-}
+// for (let i = 0; i < numbers.length; i += 2) {
+//     sum += numbers[i];
+// }
 
-console.log(sum);
+// console.log(sum);
 
 // FUNZIONE
 function sumOfOddIndex(array) {
-    let sum = 0
+    let element = 0;
 
     for (let i = 0; i < array.length; i += 2) {
-        sum += array[i];
+        element += array[i];
     }
-    return sum
+    return element;
 }
+
+let sumOdd = sumOfOddIndex(numbers);
+
+console.log(sumOdd);
+
+

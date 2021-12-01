@@ -78,4 +78,4 @@ function casualName(listNames, listSurnames) {
     console.log(userName);
 }
 
-console.log(casualName(firstNames, lastNames));
+casualName(firstNames, lastNames);
